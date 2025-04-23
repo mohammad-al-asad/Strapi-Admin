@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_shared_content_pairs",
+  "info": {
+    "displayName": "content_pair",
+    "icon": "expand",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "content_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "content_headings": {
+      "type": "blocks"
+    },
+    "content_buttons": {
+      "type": "json"
+    },
+    "orientation": {
+      "type": "enumeration",
+      "enum": [
+        "right",
+        "left"
+      ]
+    },
+    "content": {
+      "type": "json"
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "collectionName": "components_shared_mobile_showcase_banners",
+  "info": {
+    "displayName": "mobile_showcase_banner",
+    "icon": "landscape",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "showcase_texts": {
+      "type": "blocks"
+    },
+    "showcase_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "showcase_buttons": {
+      "type": "json"
+    },
+    "position": {
+      "type": "enumeration",
+      "enum": [
+        "right",
+        "left"
+      ]
+    },
+    "showcase_banner": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

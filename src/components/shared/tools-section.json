@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_shared_tools_sections",
+  "info": {
+    "displayName": "tools_section",
+    "icon": "grid",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "tool": {
+      "displayName": "tool",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.tool"
+    }
+  }
+}

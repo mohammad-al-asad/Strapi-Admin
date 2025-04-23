@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_shared_tools",
+  "info": {
+    "displayName": "tool",
+    "icon": "cast"
+  },
+  "options": {},
+  "attributes": {
+    "tool_image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "tool_information": {
+      "type": "json"
+    }
+  }
+}

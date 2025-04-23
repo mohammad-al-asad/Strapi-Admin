@@ -1,0 +1,53 @@
+{
+  "collectionName": "components_shared_usertype2s",
+  "info": {
+    "displayName": "usertype2",
+    "icon": "dashboard",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "hero_usertype2": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.hero"
+    },
+    "mobile_showcase_banner_usertype2": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.mobile-showcase-banner"
+    },
+    "content_pair_primary_usertype2": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.content-pair"
+    },
+    "content_pair_secondary_usertype2": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.content-pair"
+    },
+    "review_section_usertype2": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.review-section"
+    },
+    "banner_usertype2": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "card_content": {
+      "displayName": "card_content",
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.card-content"
+    }
+  }
+}

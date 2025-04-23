@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_shared_contents",
+  "info": {
+    "displayName": "content",
+    "icon": "alien"
+  },
+  "options": {},
+  "attributes": {
+    "content_icon": {
+      "type": "string"
+    },
+    "content_text": {
+      "type": "string"
+    }
+  }
+}

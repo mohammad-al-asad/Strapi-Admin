@@ -1,0 +1,52 @@
+{
+  "collectionName": "components_shared_usertype1s",
+  "info": {
+    "displayName": "usertype1",
+    "icon": "fileError",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "hero_usertype1": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.hero"
+    },
+    "content_pair_primary_usertype1": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.content-pair"
+    },
+    "content_pair_secondary_usertype1": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.content-pair"
+    },
+    "banner_usertype1": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "hero_supporting_text": {
+      "type": "blocks"
+    },
+    "features_list": {
+      "displayName": "features_list",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.features-list"
+    },
+    "mobile_showcase_banner": {
+      "displayName": "mobile_showcase_banner",
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.mobile-showcase-banner"
+    }
+  }
+}
