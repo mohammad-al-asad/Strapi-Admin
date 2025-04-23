@@ -1,0 +1,26 @@
+{
+    "collectionName": "components_shared_review_sections",
+    "info": {
+        "displayName": "review_section",
+        "icon": "chartCircle"
+    },
+    "options": {},
+    "attributes": {
+        "profile": {
+            "allowedTypes": [
+                "images",
+                "files",
+                "videos",
+                "audios"
+            ],
+            "type": "media",
+            "multiple": false
+        },
+        "blog": {
+            "type": "text"
+        },
+        "author_name": {
+            "type": "string"
+        }
+    }
+}

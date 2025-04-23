@@ -1,0 +1,26 @@
+{
+    "collectionName": "components_shared_navs",
+    "info": {
+        "displayName": "nav",
+        "icon": "apps"
+    },
+    "options": {},
+    "attributes": {
+        "logo": {
+            "allowedTypes": [
+                "images",
+                "files",
+                "videos",
+                "audios"
+            ],
+            "type": "media",
+            "multiple": false
+        },
+        "button": {
+            "type": "json"
+        },
+        "navItems": {
+            "type": "json"
+        }
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "collectionName": "components_shared_checkboxes",
+    "info": {
+        "displayName": "checkbox",
+        "icon": "check"
+    },
+    "options": {},
+    "attributes": {
+        "label": {
+            "type": "string"
+        }
+    }
+}

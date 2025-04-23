@@ -1,0 +1,21 @@
+{
+    "kind": "singleType",
+    "collectionName": "usertype1s",
+    "info": {
+        "singularName": "usertype1",
+        "pluralName": "usertype1s",
+        "displayName": "usertype1",
+        "description": ""
+    },
+    "options": {
+        "draftAndPublish": true
+    },
+    "attributes": {
+        "usertype1": {
+            "displayName": "usertype1",
+            "type": "component",
+            "repeatable": false,
+            "component": "shared.usertype1"
+        }
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "collectionName": "components_shared_features_lists",
+    "info": {
+        "displayName": "features_list",
+        "icon": "shoppingCart"
+    },
+    "options": {},
+    "attributes": {
+        "title": {
+            "type": "string"
+        },
+        "blog": {
+            "type": "text"
+        }
+    }
+}

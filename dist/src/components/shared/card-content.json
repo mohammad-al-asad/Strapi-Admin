@@ -1,0 +1,26 @@
+{
+    "collectionName": "components_shared_card_contents",
+    "info": {
+        "displayName": "card_content",
+        "icon": "archive"
+    },
+    "options": {},
+    "attributes": {
+        "card_texts": {
+            "type": "blocks"
+        },
+        "card_buttons": {
+            "type": "json"
+        },
+        "card": {
+            "allowedTypes": [
+                "images",
+                "files",
+                "videos",
+                "audios"
+            ],
+            "type": "media",
+            "multiple": false
+        }
+    }
+}

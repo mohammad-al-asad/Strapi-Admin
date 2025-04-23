@@ -1,0 +1,74 @@
+{
+    "kind": "singleType",
+    "collectionName": "homes",
+    "info": {
+        "singularName": "home",
+        "pluralName": "homes",
+        "displayName": "Home",
+        "description": ""
+    },
+    "options": {
+        "draftAndPublish": true
+    },
+    "attributes": {
+        "header": {
+            "displayName": "nav",
+            "type": "component",
+            "repeatable": false,
+            "component": "shared.nav"
+        },
+        "hero": {
+            "displayName": "Hero",
+            "type": "component",
+            "repeatable": false,
+            "component": "shared.hero"
+        },
+        "content_pair_primary": {
+            "displayName": "content_pair",
+            "type": "component",
+            "repeatable": false,
+            "component": "shared.content-pair"
+        },
+        "review_section": {
+            "displayName": "review_section",
+            "type": "component",
+            "repeatable": true,
+            "component": "shared.review-section"
+        },
+        "content_pair_secondary": {
+            "type": "component",
+            "repeatable": false,
+            "component": "shared.content-pair"
+        },
+        "content_pair_ternery": {
+            "type": "component",
+            "repeatable": false,
+            "component": "shared.content-pair"
+        },
+        "content_pair_fourth": {
+            "type": "component",
+            "repeatable": false,
+            "component": "shared.content-pair"
+        },
+        "banner": {
+            "type": "media",
+            "multiple": false,
+            "required": false,
+            "allowedTypes": [
+                "images",
+                "files",
+                "videos",
+                "audios"
+            ]
+        },
+        "footer": {
+            "type": "json"
+        },
+        "tools_section": {
+            "displayName": "tools_section",
+            "type": "component",
+            "repeatable": false,
+            "component": "shared.tools-section"
+        }
+    }
+}
